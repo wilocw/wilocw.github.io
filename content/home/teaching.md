@@ -18,7 +18,7 @@ weight = 60
 ## Masters Supervision
 
 ### Upcoming Projects
-- _2018 / 19_, [upgro project](post/masters-project-upgro)
+- _2018 / 19_, [Machine Learning and International Rural Water Supply](post/masters-project-upgro)
 
 ## Teaching at University of Nottingham
 ### Lead Demonstrator
