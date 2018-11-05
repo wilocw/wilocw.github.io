@@ -24,7 +24,7 @@ summary = ""
 
 +++
 
-<span style="font-weight:bold" id="top-anchor">Machine learning on images from the Unlocking the Potential of Groundwater for the Poor project</span>. This page contains details of the proposed MSc project. The data is provided by the British Geological Survey [(BGS)](https://bgs.ac.uk), who will be involved in supporting the project. A number of images have been provided of hand pumps in use in sub-Saharan Africa, some of which are in good working order, and others which have failed. The basic aim of the project is to investigate whether these images can be used to indicate whether a pump has failed with machine learning. The project is expected to contain active research, as well as significant programming using a machine learning framework.
+<span style="font-weight:bold" id="top-anchor">Machine learning on images from the Unlocking the Potential of Groundwater for the Poor project</span>. This page contains details of the proposed MSc project. The data are provided by the British Geological Survey [(BGS)](https://bgs.ac.uk), who will be involved in supporting the project. A number of images have been provided of hand pumps in use in sub-Saharan Africa, some of which are in good working order, and others which have failed. The basic aim of the project is to investigate whether these images can be used to indicate whether a pump has failed with machine learning. The project is expected to contain active research, as well as significant programming using a machine learning framework.
 
 This project is suitable for students enrolled on the following courses:
 
@@ -39,6 +39,7 @@ No prior experience with computer vision is necessary, but familiarity with basi
 - [Project Aims](#project-aims)
 - [Expected Work Plan](#expected-work-plan)
 - [Additional Information](#additional-information)
+- [Contact](#contact)
 - [References](#references)
 
 ## Project Background
@@ -73,6 +74,19 @@ A brief tutorial on transfer learning using TensorFlow can be found at the follo
 - https://www.tensorflow.org/hub/tutorials/image_retraining
 
 [˄](#top-anchor)
+
+## Contact
+
+Wil Ward, _Supervisor_
+
+- [w.ward@sheffield.ac.uk](mailto:w.ward@sheffield.ac.uk)
+
+Donald John MacAllister, _Project Partner, BGS_
+
+- [donmac@bgs.ac.uk](mailto:donmac@bgs.ac.uk)
+
+[˄](#top-anchor)
+
 ## References
 [^1]: Annaduzzaman, M., P. Bhattacharya, A. Biswas, M. Hossain, K. M. Ahmed, and D. van Halem (2018), Arsenic and manganese in shallow tubewells: validation of platform color as a screening tool in Bangladesh, Groundwater for Sustainable Development, 6, 181-188, doi: https://doi.org/10.1016/j.gsd.2017.11.008.
 
