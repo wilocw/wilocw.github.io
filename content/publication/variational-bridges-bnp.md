@@ -1,5 +1,5 @@
 +++
-title = "Variatioanl bridge constructs for approximate Gaussian process regression"
+title = "Variational bridge constructs for approximate Gaussian process regression"
 date = 2019-01-07
 draft = false
 
@@ -43,11 +43,10 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "http://staffwww.dcs.shef.ac.uk/people/W.Ward/downloads/var_bridges_gp_wilocw.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
-url_spotlight = "http://staffwww.dcs.shef.ac.uk/people/W.Ward/downloads/var_bridges_gp_wilocw.pdf"
 
 
 # Featured image
