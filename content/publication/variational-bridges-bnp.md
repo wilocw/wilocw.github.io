@@ -1,6 +1,6 @@
 +++
 title = "Variational bridge constructs for approximate Gaussian process regression"
-date = 2019-01-07
+date = 2019-01-06
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
