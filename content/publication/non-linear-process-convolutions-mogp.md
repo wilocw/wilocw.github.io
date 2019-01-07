@@ -1,6 +1,6 @@
 +++
 title = "Non-linear process convolutions for multi-output Gaussian processes"
-date = 2018-10-10
+date = 2019-01-07
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
