@@ -1,6 +1,6 @@
 +++
 title = "Variational bridge constructs for approximate Gaussian process regression"
-date = 2019-01-06
+date = 2018-12-07
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -39,7 +39,7 @@ selected = false
 
 # Links (optional)
 url_pdf = "https://drive.google.com/file/d/1HXwRsImYjmkCbva8UhmpWnc2IfLVbxK4/view"
-url_preprint = ""
+url_preprint = "https://arxiv.org/abs/1901.01727"
 url_code = ""
 url_dataset = ""
 url_project = ""
