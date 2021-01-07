@@ -8,7 +8,7 @@ draft = false
 tags = ["machine-learning", "phd", "kalman filter"]
 
 # Project summary to display on homepage.
-summary = "This project was part of a collaborative effort and joint supervision with British Geological Survey addressing the need for automatic feature detection and interpretation 3D time-lapse images of subsurface geology obtained through electrical resistivity tomography. The interdisciplinary work will combine new techniques in computer vision and change recognition in increased dimension to identify, predict and understand changes to and caused by complex hydro-geophysical processes. Results were be verified through a combination of synthetic, experimental and field models."
+summary = "This project was part of a collaborative effort and joint supervision with British Geological Survey addressing the need for automatic feature detection and interpretation 3D time-lapse images of subsurface geology obtained through electrical resistivity tomography. "
 
 # Optional image to display on homepage.
 image_preview = "ert-elevation.png"
@@ -30,6 +30,6 @@ highlight = true
 
 +++
 
-This project was part of a collaborative effort and joint supervision with British Geological Survey addressing the need for automatic feature detection and interpretation 3D time-lapse images of subsurface geology obtained through electrical resistivity tomography. The interdisciplinary work will combine new techniques in computer vision and change recognition in increased dimension to identify, predict and understand changes to and caused by complex hydro-geophysical processes. Results were be verified through a combination of synthetic, experimental and field models.
+This project was part of a collaborative effort and joint supervision with British Geological Survey addressing the need for automatic feature detection and interpretation 3D time-lapse images of subsurface geology obtained through electrical resistivity tomography. The interdisciplinary work combined new techniques in computer vision and change recognition in increased dimension to identify, predict and understand changes to and caused by complex hydro-geophysical processes. Results were be verified through a combination of synthetic, experimental and field models.
 
 The project covered funding for my PhD studies.

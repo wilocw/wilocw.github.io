@@ -38,7 +38,7 @@ image_preview = ""
 selected = false
 
 # Links (optional)
-url_pdf = ""
+url_pdf = "http://proceedings.mlr.press/v89/alvarez19a/alvarez19a.pdf"
 url_preprint = "https://arxiv.org/abs/1810.04632"
 url_code = ""
 url_dataset = ""

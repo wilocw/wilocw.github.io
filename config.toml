@@ -13,7 +13,7 @@ title = "wil oc ward | university of sheffield"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 wil oc ward"
+copyright = "&copy; 2020 wil oc ward"
 
 theme = "academic"
 enableEmoji = true
@@ -64,7 +64,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "w.ward@sheffield.ac.uk"
-  address = "Department of Computer Science, Regent Court, Sheffield UK"
+  address = "Department of Civil and Structural Engineering, Sheffield UK"
   office_hours = ""
   phone = ""
   skype = ""

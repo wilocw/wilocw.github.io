@@ -15,9 +15,20 @@ weight = 60
 
 +++
 
+## Gaussian Process Summer School
+I have been involved with the organisation of the [Gaussian Process Summer School](http://gpss.cc) as School Coordinator since 2018, as well as developing and leading demonstration labs.
+
+- _2018_, [Labs](http://gpss.cc/gpss18/labs)
+- _2019_, [Labs](http://gpss.cc/gpss19/labs)
+- _2020_, [Labs](http://gpss.cc/gpss20/labs)
+
+## PhD Supervision
+### Current students
+- Menglin Dai
+
 ## Masters Supervision
 
-### Current Projects
+### Past Projects
 - _2018 / 19_, [Machine Learning and International Rural Water Supply](post/masters-project-upgro)
 
 ## Teaching at University of Nottingham
