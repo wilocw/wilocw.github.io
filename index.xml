@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wil oc ward | university of sheffield on wil oc ward | university of sheffield</title>
+    <link>https://wilocw.github.io/</link>
+    <description>Recent content in wil oc ward | university of sheffield on wil oc ward | university of sheffield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2020 wil oc ward</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Active Building Centre</title>
+      <link>https://wilocw.github.io/project/abc-machine-learning/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/abc-machine-learning/</guid>
+      <description>&lt;p&gt;The Active Building Centre Research Programme is researching and developing innovative tools and technologies that will ensure buildings of all scales contribute to a reduction in carbon emissions and a more sustainable built environment.&lt;/p&gt;
+
+&lt;p&gt;The research I am involved in is looking at scalable solutions to residential building retrofit, by learning features and properties from large scale multi-source datasets, including visual imaging, thermography and LiDAR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Black Box Inference for Non-Linear Latent Force Models</title>
+      <link>https://wilocw.github.io/publication/black-box-inference-nlfm/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/black-box-inference-nlfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physically Constrained Machine Learning for Non-linear Spatio-temporal Partial Differential Equations</title>
+      <link>https://wilocw.github.io/project/physically-constrained-ml/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/physically-constrained-ml/</guid>
+      <description>&lt;p&gt;This project was an EPSRC feasibility study, looking at applying probabilistic machine learning approaches to non-linear partial differential equations, particularly the Cahn-Hilliard model for polymer demixing. The work involved reviewing methods for physics-constrained learning, and developing a Bayesian optimisation framework to infer system parameters from differentiable simulation-based solvers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-linear process convolutions for multi-output Gaussian processes</title>
+      <link>https://wilocw.github.io/publication/non-linear-process-convolutions-mogp/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/non-linear-process-convolutions-mogp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variational bridge constructs for approximate Gaussian process regression</title>
+      <link>https://wilocw.github.io/publication/variational-bridges-bnp/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/variational-bridges-bnp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning and International Rural Water Supply</title>
+      <link>https://wilocw.github.io/post/masters-project-upgro/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/post/masters-project-upgro/</guid>
+      <description>
+
+&lt;p&gt;&lt;span style=&#34;font-weight:bold&#34; id=&#34;top-anchor&#34;&gt;Machine learning on images from the Unlocking the Potential of Groundwater for the Poor project&lt;/span&gt;. This page contains details of the proposed MSc project. The data are provided by the British Geological Survey &lt;a href=&#34;https://bgs.ac.uk&#34; target=&#34;_blank&#34;&gt;(BGS)&lt;/a&gt;, who will be involved in supporting the project. A number of images have been provided of hand pumps in use in sub-Saharan Africa, some of which are in good working order, and others which have failed. The basic aim of the project is to investigate whether these images can be used to indicate whether a pump has failed with machine learning. The project is expected to contain active research, as well as significant programming using a machine learning framework.&lt;/p&gt;
+
+&lt;p&gt;This project is suitable for students enrolled on the following courses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Advanced Computer Science (ACS)&lt;/li&gt;
+&lt;li&gt;Advanced Software Engineering (ASE)&lt;/li&gt;
+&lt;li&gt;Data Analytics (DA)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No prior experience with computer vision is necessary, but familiarity with basic machine learning concepts, including classification, is essential. Some experience with programming is required, ideally with Python.&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#project-background&#34;&gt;Project Background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#project-aims&#34;&gt;Project Aims&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#expected-work-plan&#34;&gt;Expected Work Plan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#additional-information&#34;&gt;Additional Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contact&#34;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;project-background&#34;&gt;Project Background&lt;/h2&gt;
+
+&lt;p&gt;Unlocking the Potential of Groundwater for the Poor (UPGro), is an international research programme funded by UK’s Department for International Development (DFID), Natural Environment Research Council (NERC) and the Economic and Social Research Council (ESRC). It focuses on improving the evidence base around groundwater availability and management in sub-Saharan Africa (SSA) to enable developing countries and partners in SSA to use groundwater in a sustainable way in order to benefit the poor. There are 5 ‘consortium’ projects as part of UPGro, one of which is Hidden Crisis (HC), led by researchers at the British Geological Survey (BGS). The HC project aims to unravel the immediate and underlying causes of poor functionality of rural hand pumped borehole (HPB) supplies in SSA – what available data exists suggests up to a third of these supplies fail within just a few years of construction, and thereafter enter repeated cycles of failure and repair, or are abandoned altogether. The overall aim of wider HC project is to build a robust, multi-country evidence base on the causes of the unacceptably high rates of hand pumped borehole service failure and use this knowledge to deliver a step-change in future functionality, with recommendations for (1) diagnosing existing problems in country programmes, and (2) developing policy and practice to mitigate risks. To help meet the Project Aims and Objectives, the research approach reflects the need to understand both the physical/technical realities of borehole functioning and the human behaviours and arrangements that shape this. We draw on a range of methods from natural, social sciences and engineering, and will use an interdisciplinary approach to examine how these areas inter-relate and contribute to water supply failure in different conditions. By using this approach, the consortium has the potential to lead to a step change in understanding for hand pumped borehole functionality.&lt;/p&gt;
+
+&lt;p&gt;The first survey of the Hidden Crisis project assessed 600 HPBs in three African countries (Ethiopia, Malawi and Uganda). The HPBs were selected using a two stage randomised stratified sampling approach and functionality was assessed using a tiered definition designed in the early phases of the project.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Survey one results indicate that at any one time around 70 to 80% of HPBs provide some water, but only one third reliably provide sufficient water of good quality year-round. The reasons for these poor statistics are multifaceted, and relate not simply to poor construction or a changing climate, but are the result of a wide set of inter-related issues. Phase two of the project examined in detail a subset of 150 of the original 600 HPBs. At each HPB detailed engineering inspections of pump components, pumping tests, water quality and residence time sampling and downhole CCTV inspections were conducted. Communities were asked detailed questions about their experience of the pump and sanitary and geological surveys were conducted.&lt;/p&gt;
+
+&lt;p&gt;During survey two the engineering and sanitary inspections included taking photographs of the hand pump, its components, and the surrounding environment. Numerous photographs were taken at each site. The hypothesis of the proposed research project is that these images could potentially provide a rich source of information on the functionality status and condition of the hand pumps and the boreholes. Recent work, conducted in Bangladesh, suggests that visual inspection of hand pump platforms can be used to determine the presence or arsenic contamination in the aquifer.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+&lt;a href=&#34;#top-anchor&#34;&gt;˄&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;project-aims&#34;&gt;Project Aims&lt;/h2&gt;
+
+&lt;p&gt;The aim of the proposed MSc project is to investigate whether the images taken during the engineering and sanitary investigations can be used to predict the condition of downhole pump components and possible contamination or other aquifer issues. Ultimately the aim is to ascertain whether the images captured during the second survey can be used to predict the functionality status of rural hand pumped boreholes, with reference to the definitions of functionality designed during the first phase of the Hidden Crisis project. This will be achieved using machine learning methods. Machine learning has recently been applied in the rural water sector using hand pumps installed with sensors to predict groundwater levels&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, and to diagnose existing pump problems and predict future breakdowns.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; The prospective student will have access to the database of images and additional data from the sanitary surveys, engineering, hydrogeological and water quality investigations. The outcomes of the project could potentially have much wider implications because much of the monitoring and evaluation (M&amp;amp;E) of rural water supply projects rely on images. Photos are often captured as a routine part of M&amp;amp;E and completion reports. The key question is can these images be used to tell us something about the condition and functionality of the hand pump? If they can, then they could serve as a rapid screening tool for asset management, preventative maintenance and monitoring and evaluation of rural water supply projects potentially leading to better sustainability of rural water supplies.
+&lt;a href=&#34;#top-anchor&#34;&gt;˄&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;expected-work-plan&#34;&gt;Expected Work Plan&lt;/h2&gt;
+
+&lt;p&gt;The prospective student will need to curate images from the data set to identify a training set. The student will need to employ machine learning techniques in classification to learn the features used to categorise images, and use good practice to validate the results. During the project, the student will be actively engaged with the project partner at the BGS who will advise on the project background and requirements.&lt;/p&gt;
+
+&lt;p&gt;An example might be to use transfer learning, taking a pre-trained neural network (of which many are widely available), to reduce the features of each image from pixel level (high-dimensional) to some lower-dimensional &lt;em&gt;latent&lt;/em&gt; representation and use this to train their classification model.&lt;/p&gt;
+
+&lt;p&gt;The specific direction of the project is flexible depending on the student&amp;rsquo;s experiences and interests. This may focus more on improving results through research; or building a software system. If sufficient progress is made with the classification results, the student may have the chance to contribute to a research paper in collaboration with researchers at the BGS and University of Sheffield.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top-anchor&#34;&gt;˄&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-information&#34;&gt;Additional Information&lt;/h2&gt;
+
+&lt;p&gt;More details about the Hidden Crisis project and UPGro can be found at the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://upgro-hidden-crisis.org&#34; target=&#34;_blank&#34;&gt;https://upgro-hidden-crisis.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://upgro.org&#34; target=&#34;_blank&#34;&gt;https://upgro.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A brief tutorial on transfer learning using TensorFlow can be found at the following link:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/hub/tutorials/image_retraining&#34; target=&#34;_blank&#34;&gt;https://www.tensorflow.org/hub/tutorials/image_retraining&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top-anchor&#34;&gt;˄&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+
+&lt;p&gt;Wil Ward, &lt;em&gt;Supervisor&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:w.ward@sheffield.ac.uk&#34; target=&#34;_blank&#34;&gt;w.ward@sheffield.ac.uk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donald John MacAllister, &lt;em&gt;Project Partner, BGS&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:donmac@bgs.ac.uk&#34; target=&#34;_blank&#34;&gt;donmac@bgs.ac.uk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;#top-anchor&#34;&gt;˄&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Bonsor, H., A. MacDonald, V. Casey, R. Carter, and P. Wilson (2018), The need for a standard approach to assessing the functionality of rural community water supplies, Hydrogeology Journal, doi: &lt;a href=&#34;https://doi.org/10.1007/s10040-017-1711-0&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s10040-017-1711-0&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Annaduzzaman, M., P. Bhattacharya, A. Biswas, M. Hossain, K. M. Ahmed, and D. van Halem (2018), Arsenic and manganese in shallow tubewells: validation of platform color as a screening tool in Bangladesh, Groundwater for Sustainable Development, 6, 181-188, doi: &lt;a href=&#34;https://doi.org/10.1016/j.gsd.2017.11.008&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.gsd.2017.11.008&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;Colchester, F. E., H. G. Marais, P. Thomson, R. Hope, and D. A. Clifton (2017), Accidental infrastructure for groundwater monitoring in Africa, Environmental Modelling &amp;amp; Software, 91, 241-250, doi: &lt;a href=&#34;https://doi.org/10.1016/j.envsoft.2017.01.026&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.envsoft.2017.01.026&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;Wilson, D. L., J. R. Coyle, and E. A. Thomas (2017), Ensemble machine learning and forecasting can achieve 99% uptime for rural handpumps, PLOS ONE, 12(11), e0188808, doi: &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0188808&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1371/journal.pone.0188808&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Probabilistic Machine Learning</title>
+      <link>https://wilocw.github.io/project/deep-probabilistic-models/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/deep-probabilistic-models/</guid>
+      <description>&lt;p&gt;This project aimed to develop scalable approaches to deep non-parametric probabilistic models that use approximate inference techniques to learn the structure of the model. The project required the development of practical, interpretable models, with latent variables that can be used by non-academics in a meaningful way.&lt;/p&gt;
+
+&lt;p&gt;In this project, we developed scalable approaches for applying Gaussian process regression to multi-output signals with non-linear dependencies. This included using physics-based techniques, including series representation and ordinary differential equation solvers, combined with machine learning techniques such as GPs and autoregressive flows, to infer latent variables and forces. The outputs of this project were the development of two papers, on using Volterra series for non-linear multi-output Gaussian processes (NLMOGP)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, and normalising flows for inferring latent forces in non-linear models&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;MA Álvarez, WOC Ward, C Guarnizo, &lt;a href=&#34;../../publication/non-linear-process-convolutions-mogp/&#34;&gt;Non-linear process convolutions for multi-output Gaussian processes&lt;/a&gt;. AISTATS 2019
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;WOC Ward, T Ryder, D Prangle, MA Álvarez, &lt;a href=&#34;../../publication/black-box-inference-nlfm/&#34;&gt;Black-box inference for non-linear latent force models&lt;/a&gt;. AISTATS 2020
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing diffusion tensor to high order variational model for image reconstruction</title>
+      <link>https://wilocw.github.io/publication/diffusion-tensor-variational-reconstruction/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/diffusion-tensor-variational-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel Methods for microglia segmentation, feature extraction and classification</title>
+      <link>https://wilocw.github.io/publication/microglia-segmentation/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/microglia-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracking tracer motion in a 4-D electrical resistivity tomography experiment</title>
+      <link>https://wilocw.github.io/publication/tracer-tracking-wrr/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/tracer-tracking-wrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spherical harmonics for surface parametrisation and remeshing</title>
+      <link>https://wilocw.github.io/publication/spherical-harminics-remeshing/</link>
+      <pubDate>Wed, 09 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/spherical-harminics-remeshing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surface reconstruction from point clouds using a novel variational model</title>
+      <link>https://wilocw.github.io/publication/surface-reconstruction-variational/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/surface-reconstruction-variational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retinal vasculature classification using novel multifractal features</title>
+      <link>https://wilocw.github.io/publication/retinal-vasculature-classification-multrifractal/</link>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/retinal-vasculature-classification-multrifractal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial monitoring of groundwater drawdown and rebound associated with quarry dewatering using automated time-lapse electrical resistivity tomography and distribution guided clustering</title>
+      <link>https://wilocw.github.io/publication/spatial-monitoring-groundwater-drawdown/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/spatial-monitoring-groundwater-drawdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of three-dimensional vasculature using multifractal theory</title>
+      <link>https://wilocw.github.io/publication/analysis-vasculature-multifractal/</link>
+      <pubDate>Tue, 09 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/publication/analysis-vasculature-multifractal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

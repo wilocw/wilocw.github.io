@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on wil oc ward | university of sheffield</title>
+    <link>https://wilocw.github.io/project/</link>
+    <description>Recent content in Projects on wil oc ward | university of sheffield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2020 wil oc ward</copyright>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wilocw.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active Building Centre</title>
+      <link>https://wilocw.github.io/project/abc-machine-learning/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/abc-machine-learning/</guid>
+      <description>The Active Building Centre Research Programme is researching and developing innovative tools and technologies that will ensure buildings of all scales contribute to a reduction in carbon emissions and a more sustainable built environment.
+The research I am involved in is looking at scalable solutions to residential building retrofit, by learning features and properties from large scale multi-source datasets, including visual imaging, thermography and LiDAR.</description>
+    </item>
+    
+    <item>
+      <title>Physically Constrained Machine Learning for Non-linear Spatio-temporal Partial Differential Equations</title>
+      <link>https://wilocw.github.io/project/physically-constrained-ml/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/physically-constrained-ml/</guid>
+      <description>This project was an EPSRC feasibility study, looking at applying probabilistic machine learning approaches to non-linear partial differential equations, particularly the Cahn-Hilliard model for polymer demixing. The work involved reviewing methods for physics-constrained learning, and developing a Bayesian optimisation framework to infer system parameters from differentiable simulation-based solvers.</description>
+    </item>
+    
+    <item>
+      <title>Deep Probabilistic Machine Learning</title>
+      <link>https://wilocw.github.io/project/deep-probabilistic-models/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/deep-probabilistic-models/</guid>
+      <description>This project aimed to develop scalable approaches to deep non-parametric probabilistic models that use approximate inference techniques to learn the structure of the model. The project required the development of practical, interpretable models, with latent variables that can be used by non-academics in a meaningful way.
+In this project, we developed scalable approaches for applying Gaussian process regression to multi-output signals with non-linear dependencies. This included using physics-based techniques, including series representation and ordinary differential equation solvers, combined with machine learning techniques such as GPs and autoregressive flows, to infer latent variables and forces.</description>
+    </item>
+    
+    <item>
+      <title>Development and application of machine learning techniques for characterisation and quantification of change in time-lapse resistivity monitoring</title>
+      <link>https://wilocw.github.io/project/machine-learning-characterising-time-lapse-ert/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/machine-learning-characterising-time-lapse-ert/</guid>
+      <description>This project was part of a collaborative effort and joint supervision with British Geological Survey addressing the need for automatic feature detection and interpretation 3D time-lapse images of subsurface geology obtained through electrical resistivity tomography. The interdisciplinary work combined new techniques in computer vision and change recognition in increased dimension to identify, predict and understand changes to and caused by complex hydro-geophysical processes. Results were be verified through a combination of synthetic, experimental and field models.</description>
+    </item>
+    
+  </channel>
+</rss>

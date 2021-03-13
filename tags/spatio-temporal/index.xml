@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spatio-temporal on wil oc ward | university of sheffield</title>
+    <link>https://wilocw.github.io/tags/spatio-temporal/</link>
+    <description>Recent content in spatio-temporal on wil oc ward | university of sheffield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2020 wil oc ward</copyright>
+    <lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wilocw.github.io/tags/spatio-temporal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Probabilistic Machine Learning</title>
+      <link>https://wilocw.github.io/project/deep-probabilistic-models/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/deep-probabilistic-models/</guid>
+      <description>This project aimed to develop scalable approaches to deep non-parametric probabilistic models that use approximate inference techniques to learn the structure of the model. The project required the development of practical, interpretable models, with latent variables that can be used by non-academics in a meaningful way.
+In this project, we developed scalable approaches for applying Gaussian process regression to multi-output signals with non-linear dependencies. This included using physics-based techniques, including series representation and ordinary differential equation solvers, combined with machine learning techniques such as GPs and autoregressive flows, to infer latent variables and forces.</description>
+    </item>
+    
+  </channel>
+</rss>

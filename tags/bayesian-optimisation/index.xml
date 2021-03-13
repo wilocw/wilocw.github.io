@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bayesian-optimisation on wil oc ward | university of sheffield</title>
+    <link>https://wilocw.github.io/tags/bayesian-optimisation/</link>
+    <description>Recent content in bayesian-optimisation on wil oc ward | university of sheffield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2020 wil oc ward</copyright>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wilocw.github.io/tags/bayesian-optimisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Physically Constrained Machine Learning for Non-linear Spatio-temporal Partial Differential Equations</title>
+      <link>https://wilocw.github.io/project/physically-constrained-ml/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/physically-constrained-ml/</guid>
+      <description>This project was an EPSRC feasibility study, looking at applying probabilistic machine learning approaches to non-linear partial differential equations, particularly the Cahn-Hilliard model for polymer demixing. The work involved reviewing methods for physics-constrained learning, and developing a Bayesian optimisation framework to infer system parameters from differentiable simulation-based solvers.</description>
+    </item>
+    
+  </channel>
+</rss>

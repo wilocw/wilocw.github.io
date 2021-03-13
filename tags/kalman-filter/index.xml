@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kalman filter on wil oc ward | university of sheffield</title>
+    <link>https://wilocw.github.io/tags/kalman-filter/</link>
+    <description>Recent content in kalman filter on wil oc ward | university of sheffield</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&amp;copy; 2020 wil oc ward</copyright>
+    <lastBuildDate>Thu, 02 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wilocw.github.io/tags/kalman-filter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development and application of machine learning techniques for characterisation and quantification of change in time-lapse resistivity monitoring</title>
+      <link>https://wilocw.github.io/project/machine-learning-characterising-time-lapse-ert/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://wilocw.github.io/project/machine-learning-characterising-time-lapse-ert/</guid>
+      <description>This project was part of a collaborative effort and joint supervision with British Geological Survey addressing the need for automatic feature detection and interpretation 3D time-lapse images of subsurface geology obtained through electrical resistivity tomography. The interdisciplinary work combined new techniques in computer vision and change recognition in increased dimension to identify, predict and understand changes to and caused by complex hydro-geophysical processes. Results were be verified through a combination of synthetic, experimental and field models.</description>
+    </item>
+    
+  </channel>
+</rss>
