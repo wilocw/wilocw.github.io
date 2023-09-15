@@ -1,0 +1,37 @@
+---
+const {url,
+    title, authors, pubYear, pubName, pubShort,
+    urlDoi, urlPreprint, urlPdf, urlPublisher,
+    target = "_blank"
+  } = Astro.props;
+import { Image } from "@astrojs/image/components";
+
+const doiLink = "https://dx.doi.org/".concat(urlDoi)
+---
+
+<div
+  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[102%]"
+>
+  <a href={url} target={target}>
+    <div class="hero-content flex-col md:flex-row">
+      <div class="grow w-full">
+        <h1 class="text-xl font-bold">
+          {title}
+        </h1>
+        {authors && <p class="py-1 text-1xl italic">{authors}</p>}
+        <div class="space-x-1 text-1xl">
+          {
+            (pubShort && <span>{pubShort},</span>) || 
+            (pubName && <span class="py-1 text-1xl">{pubName},</span>)}
+            {pubYear && <span>{pubYear}</span>}
+        </div>
+        <div class="card-actions justify-end">
+          {urlDoi && (<a class="badge badge-secondary" href={doiLink} target="_blank">Link (DOI)</a>)}
+          {urlPreprint && (<a class="badge badge-secondary" href={urlPreprint} target="_blank">Preprint</a>)}
+          {urlPublisher && (<a class="badge badge-secondary" href={urlPublisher} target="_blank">Link</a>)}
+          {urlPdf && (<a class="badge badge-secondary" href={urlPdf} target="_blank">PDF</a>)}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

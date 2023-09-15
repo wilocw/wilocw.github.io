@@ -1,0 +1,134 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I am a university teacher and researcher, interested in the intersection between data-driven solutions and domain expertise, particularly using probabilistic representations to understand limitations and uncertainty in decision making processes. My research interests include the use of quality data for machine learning and decision making and the impacts of accessibility and uncertainty.<br /><br />
+    I have applied experience with developing and applying data science and machine learning solutions, including deep learning and probabilistic modelling, as well as developing and deploying data systems and code. I have acted in a number of teaching and supervisory roles in software, computing and machine learning-related modules and projects.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="PhD Computer Science, University of Nottingham, 2018"
+      subtitle="Thesis title: “Development of machine learning techniques for characterising changes in time-lapse resistivity monitoring”"
+    />
+    <TimeLineElement
+      title="MSci Mathematics and Computer Science, University of Nottingham, 2013"
+      subtitle="First class with honours"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Professional Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Teaching Fellow, 2023—present"
+      subtitle="School of Computing and Mathematical Sciences, University of Leicester"
+    >
+      I have joined the school as a teaching fellow, responsible for the undergraduate teaching of Internet and Cloud Computing, project supervision and personal tutoring.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Associate in Uncertainty in Infrastructure Systems, 2022—2023"
+      subtitle="Department of Civil and Structural Engineering, University of Sheffield"
+    >
+    In this role, I investigated the limitations of incomplete information and data in large scale systems-of-systems models, and helped develop research proposals to address them.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Associate in Data Driven Retrofit, 2020—2022"
+      subtitle="Department of Civil and Structural Engineering, University of Sheffield"
+    >
+    This role involved leading research and development on solutions to large-scale modelling of energy needs for home retrofit, using multiple sources of data including visual and thermal imaging, and open geospatial datasets. In this role, I developed solutions to research questions, managed a large scale data capture and storage project, and led a small team of data scientists to solve data localisation and management challenges. I worked on successful grant proposals and led small technical and research projects.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Associate in Physically Informed Machine Learning, 2019—2020"
+      subtitle="Department of Physics and Astronomy / School of Mathematics and Statistics, University of Sheffield"
+    >
+    I investigated Bayesian statistics-based methods for inferring nonlinear spatio-temporal dynamics in material physics, combining adjoint methods with optimisation techniques.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Associate in Probabilistic Machine Learning, 2017—2019"
+      subtitle="School of Computer Science, University of Sheffield"
+    >
+    I worked on the development of deep learning and probabilistic models for non-linear dynamic systems with partial understanding, particularly with the use of Gaussian processes.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research Programmer (part time), 2017"
+      subtitle="Department of Mathematical Sciences, Loughborough University"
+    >
+    I developed and prototyped research software for 4-D medical imaging and visualising advanced statistical analysis for clinical use.
+    </TimeLineElement>
+    <TimeLineElement
+      title="University Teaching Assistant, 2014—2017"
+      subtitle="School of Computer Science, University of Nottingham"
+    >
+    Leading development and implementation of practical teaching in undergraduate courses on 3-D graphics, software quality management, and professional ethics in computing.
+    </TimeLineElement>
+    <TimeLineElement
+      title="BUFI Researcher, 2014—2017"
+      subtitle="British Geological Survey"
+    >
+      Embedded within the Geophysical Tomography team conducting research on computational approaches for analysis in geophysical monitoring. 
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Funding</div>
+  </div>
+  
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Impacts of retrofit at scale: analysing the decisions behind retrofit"
+      subtitle="Principal Investigator">
+      Funder: Centre for Postdoctoral Development in Infrastructure Cities and Energy<br />
+      Value: £29,996
+    </TimeLineElement>
+    <TimeLineElement
+      title="Digital twins for high-value engineering applications"
+      subtitle="Named researcher / workpackage lead">
+      Funder: The Alan Turing Institute<br />
+      Value: £713,107      
+    </TimeLineElement>
+    <TimeLineElement
+      title="BGS-University Funding Initiative Scholarship"
+      subtitle="Recipient">
+      Funder: British Geological Survey<br />
+      Value: £19,800
+    </TimeLineElement>
+    <TimeLineElement
+    title="School of Computer Science PhD Scholarship"
+    subtitle="Recipient">
+    Funder: EPSRC / University of Nottingham
+  </TimeLineElement>
+ </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Other Activities</div>
+  </div>
+  
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Guest Editor, Buildings, 2023—present"
+      subtitle="“Computational Methods in Building Energy Efficiency Research”"
+    />
+    <TimeLineElement
+      title="Thesis Mentor, 2018-2020"
+    />
+    <TimeLineElement
+    title="Network Coordinator / Founder, Sheffield Machine Learning Network, 2018—2020"
+    subtitle="I established a research network dedicated to connecting researchers in the university. My role involved developing and sharing outreach material, and organising events."
+    />
+  </div>
+
+</BaseLayout>
