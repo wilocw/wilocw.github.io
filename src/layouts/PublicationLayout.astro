@@ -1,0 +1,63 @@
+---
+import { BlogSchema } from "../content/config";
+import BaseLayout from "./BaseLayout.astro";
+import dayjs from "dayjs";
+import localizedFormat from "dayjs/plugin/localizedFormat";
+
+export interface Props extends BlogSchema {}
+
+const { 
+    title, authors,
+    abstract, abstractShort,
+    pubDate, pubYear, pubName, pubShort,
+    urlDoi, urlPreprint, urlPdf, urlPublisher,
+    updatedDate, heroImage, badge,
+ } = Astro.props;
+dayjs.extend(localizedFormat);
+const displayDate = dayjs(pubDate).format("ll");
+const displayYear = pubYear;
+import { Image } from "@astrojs/image/components";
+
+const doiLink = "https://dx.doi.org/".concat(urlDoi)
+---
+
+<BaseLayout title={title} description={abstractShort} image={heroImage}>
+  <main class="md:flex md:justify-center">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      {
+        heroImage && (
+        <Image
+            aspectRatio={"16:9"}
+            width={750}
+            height={422}
+            format="webp"
+            src={heroImage}
+            alt={title}
+            class="w-full mb-6"
+          />
+        )
+      }
+      <h1 class="title my-2 text-2xl font-bold">{title}</h1>
+      <!-- {pubDate && <time>{displayDate}</time>} -->
+      <div>
+        <span>{authors && (authors)}</span><br />
+        <span>{pubName && (pubName)}</span>, {pubYear && <time>{displayYear}</time>}
+      </div>
+      <div class="py-1 space-x-2">
+        {urlDoi && (<a class="badge badge-secondary" href={doiLink} target="_blank">Link (DOI)</a>)}
+        {urlPreprint && (<a class="badge badge-secondary" href={urlPreprint} target="_blank">Preprint</a>)}
+        {urlPublisher && (<a class="badge badge-secondary" href={urlPublisher} target="_blank">Link</a>)}
+        {urlPdf && (<a class="badge badge-secondary" href={urlPdf} target="_blank">PDF</a>)}
+      </div>
+      <div class="divider my-2"></div>
+      <slot />
+      {abstract && (
+          <span class="font-bold">Abstract</span>
+          <div class="font-light">
+            {abstract}
+          </div>
+        )
+      }
+    </article>
+  </main>
+</BaseLayout>

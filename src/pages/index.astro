@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+import HorizontalCardNews from "../components/HorizontalCardNews.astro";
+import HorizontalCardPub from "../components/HorizontalCardPub.astro";
+import { getCollection } from "astro:content";
+import dayjs from "dayjs";
+
+const pubs = (await getCollection("publications")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const recentPubs = pubs.slice(0, 4);
+
+const news = (await getCollection("news")).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const recentNews = news.slice(0, 5);
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="font-bold space-x-4"><span class="text-5xl">Wil OC Ward</span>
+    <span class="text-3xl font-light">Teaching Fellow</span></div>
+    <div class="text-3xl py-3 font-light italic">
+      <div>School of Computing and Mathematical Sciences</div>
+      <div>University of Leicester</div>
+    </div>
+    <div class="">
+      <text class="text-lg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in dui in arcu elementum semper. Fusce eleifend neque eget gravida sollicitudin. Aenean ac nibh quis felis maximus pellentesque. Etiam tempor tempus metus vitae facilisis. In non fermentum nisi. Aenean tristique quam nec purus suscipit aliquet ac eu justo. Suspendisse potenti. In eleifend at odio et condimentum. Maecenas sit amet diam dapibus nulla blandit ornare at eu orci. Vivamus feugiat lacus lacus, quis rutrum felis imperdiet non. Sed sit amet lorem tellus. Nulla tempus pharetra nisi. Duis at cursus ante. Nullam ut est efficitur, convallis elit sit amet, porta sapien. Mauris vitae vestibulum nisl.</p>
+        <p>hya</p>
+      </text>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">News</div>
+  </div>
+  {
+    recentNews.map((post) => (
+      <>
+      <HorizontalCardNews
+        desc={post.data.description},
+        date={post.data.pubDate}
+      />
+      <div class="divider my-0" />
+      </>
+    ))
+  }
+  <div>
+    <div class="text-3xl w-full py-4 font-bold mb-2">Recent Publications</div>
+  </div>
+  {
+    recentPubs.map((post) => (
+      <>
+      <HorizontalCardPub
+        title={post.data.title}
+        authors={post.data.authors}
+        pubYear={post.data.year}
+        pubName={post.data.publication}
+        pubShort={post.data.publication_short}
+        urlDoi={post.data.doi}
+        urlPreprint={post.data.url_preprint}
+        urlPublisher={post.data.url_publisher}
+        urlPdf={post.data.url_pdf}
+        url={"/publications/" + post.slug}
+        target="_self"
+      />
+      <div class="divider my-0" />
+      </>
+    ))
+  }
+  <div>
+    <a class="text-large btn" href="./publications">See more publications</a>
+  </div>
+
+  <!-- <HorizontalCard
+    title="Demo Project 1"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="NEW"
+  />
+  <div class="divider my-0"></div>
+   -->
+
+  <!-- <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+  </div>
+
+  {
+    last_posts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + post.slug}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  } -->
+</BaseLayout>

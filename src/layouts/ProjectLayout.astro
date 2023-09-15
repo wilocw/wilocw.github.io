@@ -1,0 +1,70 @@
+---
+import { BlogSchema } from "../content/config";
+import BaseLayout from "./BaseLayout.astro";
+import dayjs from "dayjs";
+import localizedFormat from "dayjs/plugin/localizedFormat";
+
+export interface Props extends BlogSchema {}
+
+const { 
+    title, description,
+    pubDate, endDate, funder, reference,
+    heroImage, outcomes,
+    urlExternal,
+    updatedDate, badge, tags
+ } = Astro.props;
+dayjs.extend(localizedFormat);
+const displayDate = dayjs(pubDate).format("ll");
+import { Image } from "@astrojs/image/components";
+
+console.log(tags)
+
+---
+
+<BaseLayout title={title} description={description} image={heroImage}>
+  <main class="md:flex md:justify-center">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      {
+        heroImage && (
+        <Image
+            aspectRatio={"16:9"}
+            width={750}
+            height={422}
+            format="webp"
+            src={heroImage}
+            alt={title}
+            class="w-full mb-6"
+          />
+        )
+      }
+      <h1 class="title my-2 text-2xl font-bold">{title}</h1>
+      <!-- {pubDate && <time>{displayDate}</time>} -->
+      <div>
+        {pubDate && <time>{dayjs(pubDate).format("YYYY")}</time><span>&mdash;</span>}{endDate ? (<time>{dayjs(endDate).format("YYYY")}</time>) : <span class="italic">present</span>}<br />
+        {funder && <span>Funded by {funder} {reference && <span>({reference})</span>}</span>}
+      </div>
+      <div class="py-1 space-x-2">
+        {urlExternal && (<a class="badge badge-secondary" href={urlExternal}target="_blank">Link</a>)}
+      </div>
+      <div class="divider my-2"></div>
+      <slot />
+      {description && (
+          <span class="font-bold">Summary</span>
+          <div class="font-light">
+            {description}
+          </div>
+        )
+      }
+        <div class="divider my-2"></div>
+      {outcomes && <div class="font-bold">Project outcomes</div>}
+       <ul>{outcomes &&
+         outcomes.map((outcome) => <li class="py1 text-normal">{outcome}</li>)}</ul>
+      <div class="">
+          {
+            tags &&
+              tags.map((tag) => <div class="badge badge-outline">{tag}</div>)
+          }
+        </div>
+    </article>
+  </main>
+</BaseLayout>

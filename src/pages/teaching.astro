@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Teaching" sideBarActiveItemID="teaching">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Current</div>
+  </div>
+
+  <HorizontalCard
+    title="Internet and Cloud Computing"
+    desc="3rd year undergraduate teaching"
+    badge="2023/24"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Project Supervision"
+    desc="I am interested in supervising computer science and data science projects involving uncertainty quantification, large scale modelling of the built environment, physically informed system identification, and data-driven decision making in sustainability."
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Previous</div>
+  </div>
+  <HorizontalCard
+    title="PhD Supervision"
+    desc="Menglin Dai (University of Sheffield), Danielle Abbey (University of Sheffield), Yulan Sheng (University of Sheffield)"
+  />
+  <HorizontalCard
+    title="Project Supervision"
+    desc="I have supervised BSc and MSc projects in topics including computer graphics; computer vision, including hyperspectral imaging; and data science for sustainability"
+    />
+  <HorizontalCard
+    title="Gaussian Process Summer School"
+    img="./logo-gpss.svg"
+    desc="I was involved with the organisation of the Gaussian Process and Uncertainty Quantification Summer School, acting as School Coordinator and developing and leaning tutorials."
+    url="https://gpss.cc/past_meetings.html"
+    badge="2018-2021"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Computer Graphics"
+    desc="I acted as lead demonstrator, teaching assistant and guest lecturer, teaching and demonstrating concepts in computer graphics for 3rd year undergraduate computer science students at the University of Nottingham"
+    url="https://github.com/wilocw/g53gra_framework"
+    badge="2015-2017"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Professional Ethics in Computing"
+    desc="I was tutorial lead and teaching assistant for a module in professional ethics in computing at the University of Nottingham"
+    badge="2014-2016"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Software Quality Metrics"
+    desc="Lead demonstrator"
+    badge="2016"
+  /><div class="divider my-0"></div>
+  <HorizontalCard
+    title="Graphical User Interfaces"
+    desc="Lead demonstrator and tutorial author"
+    badge="2015"
+  />
+</BaseLayout>

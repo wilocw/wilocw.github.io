@@ -1,0 +1,39 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import { BlogSchema } from '../../content/config';
+import PublicationLayout from '../../layouts/PublicationLayout.astro';
+
+export async function getStaticPaths() {
+    const postEntries = await getCollection('publications');
+    return postEntries.map(entry => ( { 
+        params: { slug: entry.slug }, props: { entry },
+    } ));
+}
+
+interface Props {
+    entry: CollectionEntry<"publications">;
+}
+
+const { entry } = Astro.props;
+const post : BlogSchema = entry.data;
+const { Content } = await entry.render();
+---
+
+<PublicationLayout 
+    title={post.title} 
+    abstract={post.abstract}
+    pubDate={post.pubDate} 
+    pubYear={post.year}
+    heroImage={post.heroImage} 
+    updatedDate={post.updatedDate} 
+    authors={post.authors}
+    pubName={post.publication}
+    pubShort={post.publication_short}
+    abstractShort={post.abstract_short}
+    urlDoi={post.doi}
+    urlPreprint={post.url_preprint}
+    urlPublisher={post.url_publisher}
+    urlPdf={post.url_pdf}
+    badge={post.badge}>
+    <Content/>
+</PublicationLayout>
